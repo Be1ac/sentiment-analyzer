@@ -2,3 +2,4 @@ requests
 textblob
 flask
 python-dotenv
+pytest

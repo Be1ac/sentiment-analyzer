@@ -15,7 +15,9 @@ def fetch_news(query="technology"):
         response.raise_for_status() # Software Engineering: Check for HTTP errors
         data = response.json()
         # We only want the titles of the articles
-        return [article['title'] for article in data.get('articles', [])]
+        return [{"title": a['title'], "date": a['publishedAt']} for a in data.get('articles', [])]
     except Exception as e:
         print(f"Error fetching data: {e}")
         return []
+    
+    
