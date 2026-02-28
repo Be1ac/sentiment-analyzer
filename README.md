@@ -37,7 +37,7 @@ This project was built with a focus on **Software Engineering best practices**, 
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 The project follows a **Modular Monolith** structure to ensure maintainability:
 
@@ -49,7 +49,7 @@ The project follows a **Modular Monolith** structure to ensure maintainability:
 
 ---
 
-## 🔧 Setup & Installation
+## Setup & Installation
 
 ### 1. Prerequisites
 
